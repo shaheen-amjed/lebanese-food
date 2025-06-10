@@ -96,16 +96,6 @@ export default function TraditionExcellence() {
               <p className="text-sm font-semibold text-red-800 tracking-wider">COMPANY PROFILE</p>
             </motion.div>
 
-            {/* Page Number */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 1.2 }}
-              viewport={{ once: true }}
-              className="absolute bottom-8 right-8 text-6xl font-light text-red-800/20"
-            >
-              08
-            </motion.div>
           </div>
         </div>
       </div>
